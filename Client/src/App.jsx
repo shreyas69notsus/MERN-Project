@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<ProtectedPage><Home/></ProtectedPage>} />
         <Route path="/profile" element={<ProtectedPage><Profile/></ProtectedPage>} />
         {/* //Admin */}
-        <Route path="/admin" element={<ProtectedPage><Admin/></ProtectedPage>} />
+        <Route path="/admin" element={<Admin/>} />
         {/* movie route */}
         <Route path="/admin/movies/add" element={<ProtectedPage><MovieForm/></ProtectedPage>} />
         <Route path="/admin/movies/edit/:id" element={<ProtectedPage><MovieForm/></ProtectedPage>} />

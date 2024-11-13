@@ -138,8 +138,8 @@ function ArtistModalForm({
                 >
                   <select>
                     <option value="Actor">Actor</option>
-                    <option value="Acteress">Acteress</option>
-                    <option value="Director">Dierector</option>
+                    <option value="Actress">Actress</option>
+                    <option value="Director">Director</option>
                     <option value="Producer">Producer</option>
                     <option value="Music Director">Music Director</option>
                     <option value="Singer">Singer</option>

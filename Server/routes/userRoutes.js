@@ -45,7 +45,7 @@ router.post('/login', async (req, res) => {
         console.log("iscoreect", isCorrectPassword)
         if (!isCorrectPassword) throw new Error("Invalid password");
         //encryt the data for security and followup in authMiddlewares.js
-        const token = jwt.sign({ userId: user._id }, process.env.secret_jwt, { expiresIn: "1d" })
+        const token = jwt.sign({ userId: user._id }, "asd", { expiresIn: "1d" })
         console.log("token", token)
         res.status(200).json({ message: "User logged In Sucessfully", success: true, token: token })
     } catch (error) {

@@ -14,7 +14,6 @@ function Admin() {
   useEffect(() => {});
   return (
     <div>
-      {user?.isAdmin ? (
         <Tabs
           activeKey={activeTab}
           onChange={(key) => {
@@ -32,11 +31,7 @@ function Admin() {
             <Users />
           </Item>
         </Tabs>
-      ) : (
-        <div className="text-gray-600 text-md text-center mt-20">
-          You are not authorized to view this page
-        </div>
-      )}
+      
     </div>
   );
 }

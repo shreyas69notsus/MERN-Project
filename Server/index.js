@@ -14,7 +14,7 @@ app.use("/api/artists",artistRoute)
 app.use("/api/images",imagesRoute)
 app.use("/api/movies",moviesRoute)
 
-const port=process.env.PORT || 5000;
+const port=process.env.PORT || 8000;
 
 app.listen(port, ()=>{
     console.log(`Server connected ${port}`)

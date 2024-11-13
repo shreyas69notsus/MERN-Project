@@ -5,7 +5,7 @@ try {
     // console.log("req---",req)
     const token=req.headers.authorization.split(" ")[1]
     //encryted in userRoutes.js using sign() 
-    const dcryptedToken=jwt.verify(token,process.env.secret_jwt)
+    const dcryptedToken=jwt.verify(token,"asd")
     console.log("decrypt",dcryptedToken)
     req.userId=dcryptedToken.userId
     console.log("req.userId",req.userId)
