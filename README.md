@@ -113,6 +113,6 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-- Rahul Shaw
-- Email : rahul.shaw2017@gmail.com
-- GitHub : https://github.com/RahulShawDevReact/Movie-review-and-recommendation-MERN
+- Shreyas
+- Email : shreyaspatil6969@gmail.com
+- GitHub : 
